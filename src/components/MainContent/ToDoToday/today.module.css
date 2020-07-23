@@ -1,0 +1,18 @@
+.enterDataTask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputTask {
+    width: 20vw;
+}
+
+.addTaskButton {
+    margin-left: 5vw;
+    margin-bottom: 24px;
+}
+
+.taskList {
+    line-height: 3.5rem;
+}

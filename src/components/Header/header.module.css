@@ -1,0 +1,10 @@
+.headerItems {
+    grid-area: header;
+    background-color: rgba(3,148,100,0.34);
+    padding: 10px;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: large;
+}
