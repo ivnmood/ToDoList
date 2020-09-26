@@ -11,7 +11,7 @@ import {
 let initialState = {
     items: [
         {title: "Find a job", completed: false, id: 13545},
-        {title: "Upload to github", completed: false, id: 24535},
+        {title: "Upload to github", completed: true, id: 24535},
         {title: "Make a ToDo list", completed: false, id: 34534543},
         {title: "Drop a resume", completed: false, id: 456535},
     ]

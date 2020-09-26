@@ -22,7 +22,6 @@ const ToDoItem = (props) => {
     }
 
     const onItemCompleted = () => {
-
         props.updateCompleted(!completed, props.id)
     }
 
@@ -34,7 +33,7 @@ const ToDoItem = (props) => {
     return (
         <div className={s.taskList}>
             <Space size={"large"}>
-                <Checkbox onChange={onItemCompleted} defaultChecked={props.completed}/>
+                <Checkbox onChange={onItemCompleted} checked={props.completed}/>
                 {!completed &&
                 <Text editable={{onChange: onTitleChange}}>
                     {title}

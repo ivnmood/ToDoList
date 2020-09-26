@@ -37,15 +37,15 @@ class App extends React.Component {
                 <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
                     <Title className="logo" level={3}> ToDo list</Title>
                     <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
-                        <Menu.Item key="1" icon={<LineOutlined />}>
-                            <NavLink  to="/today">Today</NavLink>
-                        </Menu.Item>
-                        <Menu.Item key="2" icon={<LineOutlined />}>
-                            <NavLink  to="/tomorrow">Tomorrow</NavLink>
-                        </Menu.Item>
-                        <Menu.Item key="3" icon={<LineOutlined />}>
-                            <NavLink  to="/yesterday">Yesterday</NavLink>
-                        </Menu.Item>
+                            <Menu.Item key="1" icon={<LineOutlined />}>
+                                <NavLink  to="/today">Today</NavLink>
+                            </Menu.Item>
+                            <Menu.Item key="2" icon={<LineOutlined />}>
+                                <NavLink  to="/tomorrow">Tomorrow</NavLink>
+                            </Menu.Item>
+                            <Menu.Item key="3" icon={<LineOutlined />}>
+                                <NavLink  to="/yesterday">Yesterday</NavLink>
+                            </Menu.Item>
                     </Menu>
                 </Sider>
                 <Layout className="site-layout">
